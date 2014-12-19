@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#39BFB4"
+        android:text="装逼短信发送器"
+        android:gravity="center"
+        android:textColor="#ffffff"  
+        android:textSize="20sp"  
+        android:textStyle="bold"    
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp" >
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shurukuang_down"
+            android:gravity="top"
+            android:hint="填写来信号码"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_mseeage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shurukuang_down"
+            android:gravity="top"
+            android:hint="给自己发一条装逼的短信"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_fasong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_fasong"
+            android:padding="12dp"
+            android:text="发送装逼短息"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_xiaohuoban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="right"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="看看小伙伴们怎么装逼的"
+            android:textColor="#39BFB4" />
+    </LinearLayout>
+
+</LinearLayout>
